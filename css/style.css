@@ -1,0 +1,163 @@
+body{
+    /* background-color: #edddd4; */
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+}
+
+hr{
+    border: dotted 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 10px auto;
+    border-color: #8794c0;
+    background-color: white;
+}
+
+li{
+    list-style: none;
+}
+
+/* Containers */
+.container-fluid{
+    padding: 5% 15%;
+}
+
+.mirage-container{
+    background-color: #1c2135;
+    color: white;
+}
+
+.waikawa-gray-container{
+    background-color: #5a6794;
+    color: white;
+}
+
+.wild-blue-yonder-container{
+    background-color: #8794c0;
+    color: white;
+}
+
+/* Cards */
+.cards-padding{
+    padding: 3% 2%;
+}
+
+/* Header & Navbar Section */
+.header-container{
+    padding: 2% 15% 2%;
+}
+
+.navbar-brand{
+    text-align: left;
+    width: 70%;
+}
+
+.navbar img{
+    width: 15%;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-weight: 400;
+    color: white;
+    font-size: 1.2rem;
+}
+
+/* Headings */
+.big-heading {
+    font-weight: 800;
+    font-size: 3rem;
+}
+
+.section-heading{
+    font-weight: 800;
+    font-size: 2rem;
+}
+
+.small-heading{
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+/* Header Section */
+
+.header-title{
+    padding: 50px 0;
+}
+
+.header button{
+    margin: 10px 0;
+}
+
+/* Intro Section */
+.intro{
+    text-align: left;
+}
+.intro-img{
+    border-radius: 100%;
+    width: 80%;
+    text-align: center;
+}
+
+.intro .big-heading{
+    color: #c44536;
+}
+
+.intro-desc{
+    padding-top: 45px;
+}
+
+.intro-desc p{
+    font-size: 1.2rem;
+}
+
+/* Exp Section */
+.exp .big-heading{
+    color: #1c2135;
+}
+
+/* Reference Section */
+.reference img{
+    opacity: 80%;
+}
+
+.reference .small-heading{
+    font-weight: 400;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.reference .carousel-caption .small-heading{
+    color: #1c2135;
+    visibility: hidden;
+}
+
+/* Softwares Section */
+.softwares img, .clients img{
+    width: 50%;
+    /* margin: 20px; */
+}
+
+.softwares-img-col, .clients-img-col{
+    padding: 20px;
+}
+
+.softwares .small-heading, .clients .small-heading{
+    font-size: 100%;
+}
+
+/* Clients Section */
+.clients img{
+    background-color: #d8cdb0;
+    border-radius: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+/* Footer */
+.footer {
+    padding: 0 0 30px 0;
+}
